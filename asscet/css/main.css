@@ -254,9 +254,26 @@ main {
     border-radius: 3rem;
     margin-bottom: 4rem;
 }
+
+.self {
+    display: block;
+    
+}
+
+.Education {
+    display: none;
+    
+}
+.target {
+    display: none;
+    
+}
+.interest {
+    display: none;
+}
 /* bản thân */
 .self {
-    display: none;
+   
     padding: 2rem;
 }
 
@@ -319,7 +336,7 @@ main {
 
 /* Hoc van */
 .Education {
-    display: none;
+    
     padding: 2rem;
 }
 
@@ -457,7 +474,7 @@ main {
 
 /* Muc Tieu */
 .target {
-    display: none;
+   
     padding: 2rem;
     height: 800px;
 }
