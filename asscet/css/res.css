@@ -102,7 +102,7 @@ body {
 
 @media (max-width:46.1875em) {
     main {
-        overflow: hidden;
+        overflow: auto;
     }
     /* header */
     .intro {
@@ -131,7 +131,7 @@ body {
         width: unset;
     }
     .navigation__list {
-     
+       
         width: 100%;
         justify-content: space-around;
     }
