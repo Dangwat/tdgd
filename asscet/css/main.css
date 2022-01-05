@@ -256,12 +256,11 @@ main {
 }
 
 .self {
-    display: block;
-    
+    display: none;
 }
 
 .Education {
-    display: none;
+    display: block;
     
 }
 .target {
