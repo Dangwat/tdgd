@@ -101,6 +101,9 @@ body {
 /* mobile */
 
 @media (max-width:46.1875em) {
+    main {
+        overflow: hidden;
+    }
     /* header */
     .intro {
         padding: 1rem;
