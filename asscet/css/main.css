@@ -260,7 +260,7 @@ main {
 }
 
 .Education {
-    display: block;
+    display: none;
     
 }
 .target {
@@ -268,7 +268,7 @@ main {
     
 }
 .interest {
-    display: none;
+    display: block;
 }
 /* bản thân */
 .self {
@@ -372,14 +372,16 @@ main {
 
 .Education__item-body {
     margin-left: 2rem;
+    text-align:justify;
 }
+
 
 .Education__item-body-text a {
     text-decoration: none;
     color: #e1306c;
     font-size: 1.6rem;
+    
 }
-
 .Education__item-body-h4 {
     font-size: 1.8rem;
     font-weight: 500;
@@ -511,6 +513,7 @@ main {
 
 .target__item-body {
     margin-left: 2rem;
+    text-align: justify;
 }
 
 .target__item-body-text a {

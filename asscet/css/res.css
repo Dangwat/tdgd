@@ -61,6 +61,10 @@ body {
         right: 0;
         border-radius: unset;
         padding: 1rem;
+        z-index: 1;
+    }
+    .Education__item-body-text {
+        text-align: justify;
     }
 }
 
@@ -147,5 +151,24 @@ body {
         .self-item-body-img {
             width: 100%;
         }
+     /* muc tieu*/
+     
+        .target {
+            height: 100%;
+            margin-bottom: 50px;
+        }
+
+        .target__item-body-h4 {
+            padding: 2rem 0 0 0;
+
+        }
+        .target__item-body-h4::after {
+            left: -5%;
+
+        }
+        .target__item-body-h4::before {
+            height: 140px;
+        }
+
 }
 
