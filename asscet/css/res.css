@@ -169,6 +169,10 @@ body {
         .target__item-body-h4::before {
             height: 140px;
         }
+        /* ưu thích */
+        .interest {
+            padding: unset;
+        }
 
 }
 
