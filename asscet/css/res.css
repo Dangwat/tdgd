@@ -66,6 +66,9 @@ body {
     .Education__item-body-text {
         text-align: justify;
     }
+    .display {
+        top: 20px;
+    }
 }
 
 /* tablet */
@@ -100,6 +103,7 @@ body {
         padding: 0.5rem;
 
     }
+ 
 }
 
 
@@ -152,6 +156,15 @@ body {
         .self-item-body-img {
             width: 100%;
         }
+    /* hoc van */
+
+        .Education__item-body-h4::after {
+            left: -15%;
+            top: 72%;
+        }
+        .Education__item-body-h4::before {
+            display: none;
+        }
      /* muc tieu*/
      
         .target {
@@ -164,11 +177,12 @@ body {
 
         }
         .target__item-body-h4::after {
-            left: -5%;
+            left: -15%;
+            top: 66%;
 
         }
         .target__item-body-h4::before {
-            height: 140px;
+            display: none;
         }
         /* ưu thích */
         .interest {
