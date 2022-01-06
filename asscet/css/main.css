@@ -261,11 +261,11 @@ main {
 
 /* check-ban than */
 .self {
-    display: none;
+    display: block;
 }
 
 .checkbox-item1:checked ~ .self{
-    display: block;
+    display: none;
 }
 
 .checkbox-item1:checked ~ .Education{
