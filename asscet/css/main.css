@@ -375,34 +375,45 @@ main {
     font-weight: 500;
 }
 
- .self-item-body-link {
-    text-decoration: none;
-    color: var(--text-color);
+.zoom {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+ .self-item-body-link {
+    text-decoration: none;
+    color: var(--text-color);
     border-radius: 2rem;
     cursor: default;
+    overflow: hidden;
+  
 }
 
 .self-item-body-img {
     width: 400px;
+    padding-top: 0;
     cursor: pointer;
     border-radius: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 5px 10px 15px rgb(0, 0, 0, 0.3);
-    transition: all linear 0.5s;
+
+  
+    transform:scale(1);
+    transition: 0.3s ease-in-out;
 }
 
+
 .self-item-body-img:hover {
-    transform: rotateY(180deg);
+    transform:scale(1.05);
+
 }
+
+
 
 .self-item-body-text {
     font-size: 1.6rem;
     color: var(--black-color);
     font-weight: 500;
+    padding: 1rem 0;
 }   
 
 
