@@ -1,13 +1,15 @@
-window.onscroll = function() {
-    if (document.documentElement.scrollTop > 300 || document.body.scrollTop > 300){
-        taskbar.style.position = "fixed";
-        taskbar.style.top = 0;
-        taskbar.style.width = "163.32px" ;
-        taskbar.style.marginTop = "30px" ;
-        taskbar.style.transition = "all 0.2s linear" ;
-    } else {
-        taskbar.style.position = "static";
-        taskbar.style.marginTop = 0 ;
-        taskbar.style.transition = "all 0.2s linear" ;
-    }
-}
+
+
+// const btns = document.querySelectorAll('.js-navigation-item');
+// const uu = document.querySelector('.navigation-item')
+//     // console.log (navigations)
+
+
+//     function Show () {
+//         uu.classList.add('active')
+//     }
+
+//     for (const btn of btns) {
+//         btn.addEventListener('click', Show)
+//     }
+

@@ -255,20 +255,93 @@ main {
     margin-bottom: 4rem;
 }
 
+.checkbox-item1,.checkbox-item2,.checkbox-item3,.checkbox-item4 {
+    display: none;
+}
+
+/* check-ban than */
 .self {
     display: none;
 }
 
+.checkbox-item1:checked ~ .self{
+    display: block;
+}
+
+.checkbox-item1:checked ~ .Education{
+    display: none;
+}
+
+.checkbox-item1:checked ~ .target{
+    display: none;
+}
+
+.checkbox-item1:checked ~ .interest{
+    display: none;
+}
+
+
+
+/* check hoc van */
 .Education {
     display: none;
     
 }
+
+.checkbox-item2:checked ~ .Education{
+    display: block;
+}
+
+.checkbox-item2:checked ~ .self{
+    display: none;
+}
+
+.checkbox-item2:checked ~ .target{
+    display: none;
+}
+
+.checkbox-item2:checked ~ .interest{
+    display: none;
+}
+
+/* check muc tieu */
+
 .target {
     display: none;
     
 }
-.interest {
+.checkbox-item3:checked ~ .target{
     display: block;
+}
+.checkbox-item3:checked ~ .self{
+    display: none;
+}
+
+.checkbox-item3:checked ~ .Education{
+    display: none;
+}
+
+.checkbox-item3:checked ~ .interest{
+    display: none;
+}
+
+/* check uu thich */
+.interest {
+    display: none;
+}
+.checkbox-item4:checked ~ .interest{
+    display: block;
+}
+.checkbox-item4:checked ~ .self{
+    display: none;
+}
+
+.checkbox-item4:checked ~ .target{
+    display: none;
+}
+
+.checkbox-item4:checked ~ .Education{
+    display: none;
 }
 /* bản thân */
 .self {

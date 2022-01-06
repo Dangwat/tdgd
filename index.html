@@ -118,7 +118,7 @@
                        
                        <div class="col l-2 navigation">
                            <ul class="navigation__list">
-                               <li class="navigation-item active"> 
+                               <label for="checkbox-item1" class="navigation-item active " > 
                                    <lord-icon
                                        src="https://cdn.lordicon.com/eszyyflr.json"
                                        trigger="hover"
@@ -126,8 +126,8 @@
                                        style="width:100%;height:100%">
                                    </lord-icon>
                                    <span class="navigation-item-text">Bản thân</span>
-                               </li>
-                               <li class="navigation-item "> 
+                               </label>
+                               <label for="checkbox-item2" class="navigation-item  "> 
                                    <lord-icon
                                        src="https://cdn.lordicon.com/wxnxiano.json"
                                        trigger="hover"
@@ -135,8 +135,9 @@
                                        style="width:100%;height:100%">
                                    </lord-icon>
                                    <span class="navigation-item-text">Học vấn</span>
-                               </li>
-                               <li class="navigation-item"> 
+                               </label>
+
+                               <label for="checkbox-item3" class="navigation-item"> 
                                    <lord-icon
                                        src="https://cdn.lordicon.com/iltqorsz.json"
                                        trigger="hover"
@@ -145,8 +146,9 @@
                                    </lord-icon>
                                    <span class="navigation-item-text">Mục tiêu</span>
    
-                               </li>
-                               <li class="navigation-item"> 
+                               </label>
+
+                               <label for="checkbox-item4" class="navigation-item "> 
                                    <lord-icon
                                        src="https://cdn.lordicon.com/rjzlnunf.json"
                                        trigger="hover"
@@ -154,7 +156,8 @@
                                        style="width:100%;height:100%">
                                    </lord-icon>
                                    <span class="navigation-item-text">Ưa thích</span>
-                               </li>
+                               </label>
+
                            </ul>
                        </div>
            
@@ -162,8 +165,12 @@
                           
                            <div class="information">
                                 <!-- bản thân -->
-   
-                               <div class="self">
+                                <input type="checkbox" id="checkbox-item1" class="checkbox-item1">
+                                <input type="checkbox" id="checkbox-item2"  class="checkbox-item2">
+                                <input type="checkbox" id="checkbox-item3" class="checkbox-item3">
+                                <input type="checkbox" id="checkbox-item4" class="checkbox-item4">
+
+                                <div class="self">
                                    <ul class="self__list">
                                        <li class="self-item">
                                            <h1 class="self-item-heading">Giới thiệu</h1>
@@ -212,7 +219,12 @@
                                        </li>
                                    </ul>
                                </div>
-   
+
+                               <input type="checkbox" id="checkbox-item2"  class="checkbox-item2">
+                               <input type="checkbox" id="checkbox-item1"  class="checkbox-item2">
+                                <input type="checkbox" id="checkbox-item3" class="checkbox-item3">
+                                <input type="checkbox" id="checkbox-item4" class="checkbox-item4">
+
                                <!-- hoc van -->
                                <div class="Education">
                                    <h1 class="Education-header">Học Vấn</h1>
@@ -327,10 +339,13 @@
                                    </div>
    
                                </div>
-   
+                               
                                <!-- Mục Tiêu -->
-   
-                           
+                               <input type="checkbox" id="checkbox-item3" class="checkbox-item3">
+                               <input type="checkbox" id="checkbox-item2"  class="checkbox-item2">
+                                <input type="checkbox" id="checkbox-item1" class="checkbox-item3">
+                                <input type="checkbox" id="checkbox-item4" class="checkbox-item4">
+
                                <div class="target">
                                    <h1 class="target-header">Mục Tiêu</h1>
                                    <ul class="target-list">
@@ -390,7 +405,11 @@
                                </div>
    
                                <!-- sở thích -->
-   
+                               <input type="checkbox" id="checkbox-item4" class="checkbox-item4">
+                               <input type="checkbox" id="checkbox-item2"  class="checkbox-item2">
+                                <input type="checkbox" id="checkbox-item3" class="checkbox-item3">
+                                <input type="checkbox" id="checkbox-item1" class="checkbox-item4">
+
                                <div class="interest">
                                    <h1 class="interest-header">Ưa thích</h1>
                                    <ul class="interest-list">
