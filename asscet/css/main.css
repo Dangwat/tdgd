@@ -296,6 +296,16 @@ main {
     padding: 2rem;
     border-radius: 3rem;
     margin-bottom: 4rem;
+
+    /* position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    flex-shrink: 0;
+    justify-content: center; */
+
+    
 }
 
 .checkbox-item1,.checkbox-item2,.checkbox-item3,.checkbox-item4 {
@@ -304,7 +314,9 @@ main {
 
 /* check-ban than */
 .self {
+  
     display: block;
+   
 }
 
 .checkbox-item1:checked ~ .self{
@@ -327,11 +339,12 @@ main {
 
 /* check hoc van */
 .Education {
-    display: none;
     
+    display: none;
+   
 }
 
-.checkbox-item2:checked ~ .Education{
+ .checkbox-item2:checked ~ .Education{
     display: block;
 }
 
@@ -345,11 +358,12 @@ main {
 
 .checkbox-item2:checked ~ .interest{
     display: none;
-}
+} 
 
 /* check muc tieu */
 
 .target {
+ 
     display: none;
     
 }
@@ -370,7 +384,9 @@ main {
 
 /* check uu thich */
 .interest {
+   
     display: none;
+   
 }
 .checkbox-item4:checked ~ .interest{
     display: block;
