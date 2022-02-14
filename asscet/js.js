@@ -12,11 +12,11 @@ const panes = $$('.js-active')
 
 
             $('.navigation-item.active').classList.remove('active')
-            $('.js-active.actives').classList.remove('actives')
+            $('.js-active.active').classList.remove('active')
 
 
             this.classList.add('active')
-            pane.classList.add('actives')
+            pane.classList.add('active')
 
         }
     });
