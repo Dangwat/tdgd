@@ -1,15 +1,22 @@
+const $ = document.querySelector.bind(document)
+const $$ = document.querySelectorAll.bind(document)
+
+const tabs = $$('.navigation-item')
+const panes = $$('.js-active')
+
+    tabs.forEach((tab, index) => {
+        const pane = panes[index]
+
+        tab.onclick = function () {
+          
 
 
-// const btns = document.querySelectorAll('.js-navigation-item');
-// const uu = document.querySelector('.navigation-item')
-//     // console.log (navigations)
+            $('.navigation-item.active').classList.remove('active')
+            $('.js-active.actives').classList.remove('actives')
 
 
-//     function Show () {
-//         uu.classList.add('active')
-//     }
+            this.classList.add('active')
+            pane.classList.add('actives')
 
-//     for (const btn of btns) {
-//         btn.addEventListener('click', Show)
-//     }
-
+        }
+    });

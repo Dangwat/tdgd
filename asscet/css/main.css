@@ -281,9 +281,9 @@ main {
     background-image: linear-gradient(142.17deg,#79aef8 6.66%,#de30fd 91.48%);
 
 }
-.active {
-    background-image: linear-gradient(142.17deg,#e257fa 6.66%,#245aa7 91.48%);
+.js-active.actives {
 
+    display: block;
 }
 .navigation-item-text {
     font-size: 1.6rem;
@@ -315,24 +315,8 @@ main {
 /* check-ban than */
 .self {
   
-    display: block;
+    display: none;
    
-}
-
-.checkbox-item1:checked ~ .self{
-    display: block;
-}
-
-.checkbox-item1:checked ~ .Education{
-    display: none;
-}
-
-.checkbox-item1:checked ~ .target{
-    display: none;
-}
-
-.checkbox-item1:checked ~ .interest{
-    display: none;
 }
 
 
@@ -344,21 +328,7 @@ main {
    
 }
 
- .checkbox-item2:checked ~ .Education{
-    display: block;
-}
 
-.checkbox-item2:checked ~ .self{
-    display: none;
-}
-
-.checkbox-item2:checked ~ .target{
-    display: none;
-}
-
-.checkbox-item2:checked ~ .interest{
-    display: none;
-} 
 
 /* check muc tieu */
 
@@ -367,20 +337,7 @@ main {
     display: none;
     
 }
-.checkbox-item3:checked ~ .target{
-    display: block;
-}
-.checkbox-item3:checked ~ .self{
-    display: none;
-}
 
-.checkbox-item3:checked ~ .Education{
-    display: none;
-}
-
-.checkbox-item3:checked ~ .interest{
-    display: none;
-}
 
 /* check uu thich */
 .interest {
@@ -388,20 +345,7 @@ main {
     display: none;
    
 }
-.checkbox-item4:checked ~ .interest{
-    display: block;
-}
-.checkbox-item4:checked ~ .self{
-    display: none;
-}
 
-.checkbox-item4:checked ~ .target{
-    display: none;
-}
-
-.checkbox-item4:checked ~ .Education{
-    display: none;
-}
 /* bản thân */
 .self {
    
